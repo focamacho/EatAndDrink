@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "eatanddrink",
+  "version": "${version}",
+
+  "name": "Eat And Drink",
+  "description": "A mod inspired by Alice in Wonderland!",
+  "authors": [
+    "Focamacho"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/eat-and-drink",
+    "sources": "https://github.com/Focamacho/EatAndDrink",
+    "issues": "https://github.com/Focamacho/EatAndDrink/issues"
+  },
+
+  "license": "MIT-1.0",
+  "icon": "assets/eatanddrink/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.focamacho.eatanddrink.EatAndDrink"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "sizeentityattributes": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
